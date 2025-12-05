@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.require_paths     = ["lib"]
   s.bindir            = "bin"
   s.executables       = ["techbook"]
-  s.add_dependency('color', '>= 1.4.0')
+  s.add_dependency('color', '~> 1.8')
   s.add_dependency('transaction-simple', '~> 1.3')             
   s.files = [
     "README",
